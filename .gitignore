@@ -1,14 +1,14 @@
 # Node.js
 node_modules/
-# npm-debug.log
-# package-lock.json
+npm-debug.log
+package-lock.json
 
-# # Vite
-# dist/
-# dist-ssr/
+# Vite
+dist/
+dist-ssr/
 
-# # Cache
-# *.tsc
+# Cache
+*.tsc
 
-# # Output page
-# build/
+# Output page
+build/
