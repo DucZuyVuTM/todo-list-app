@@ -90,6 +90,7 @@ const App: React.FC = () => {
   }, [inputType]);
 
   return (
+    <div className="font-sans m-0 bg-gray-100 min-h-screen flex justify-center items-center">
     <div className={`w-[400px] bg-white p-2 sm:p-5 rounded-lg shadow-md sm:shadow-lg box-border min-w-0`}>
       <h1 className="text-xl sm:text-2xl font-bold text-center mb-2 sm:mb-4">Todo List</h1>
       <form onSubmit={addTodo} className="mb-2 sm:mb-4">
@@ -168,6 +169,7 @@ const App: React.FC = () => {
           </li>
         ))}
       </ul>
+    </div>
     </div>
   );
 };
